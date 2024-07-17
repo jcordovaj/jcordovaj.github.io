@@ -12,8 +12,8 @@ jQuery(document).ready(function ($) {
         "tolerance": 20,
         "offset": 50,
         "classes": {
-            "initial": "animated",
-            "pinned": "slideDown",
+            "initial" : "animated",
+            "pinned"  : "slideDown",
             "unpinned": "slideUp"
         }
     });
