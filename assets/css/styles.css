@@ -321,8 +321,7 @@ img{
 }
 .skills__subtitle{
     color: var(--first-color);
-    text-color: var(--text-color);
-	font-size: var(--h2-font-size);
+    font-size: var(--h2-font-size);
     margin-bottom: var(--mb-1);
 	text-align: center;
 }
@@ -339,12 +338,12 @@ img{
 .skills__text{
     display: block;
     font-size: var(--small-font-size);
-    margin-right: 0;  /*var(--mb-2);*/
-    margin-bottom: 0; /*var(--mb-3);*/
-    padding: 0;       /*.25rem .5rem;*/
+    margin-right: 0;  /* test var(--mb-2);*/
+    margin-bottom: 0; /* test var(--mb-1);*/
+    padding: 0;       /* test .25rem .5rem;*/
     background-color: var(--white-color);
     border-radius: .25rem;
-	text-align: center;
+	text-align: justify;
 }
 .skills__text:hover{
     background-color: var(--first-color);
