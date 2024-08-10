@@ -304,10 +304,10 @@ img{
   justify-content: center;
   
 }
-.card-body-habilidades{ /*Cuerpo de la tarjeta, incluye title y parrafo*/
+/*.card-body-habilidades{ Cuerpo de la tarjeta, incluye title y parrafo
 	
 	
-}
+}*/
 .card-title-habilidades{ /*Titulo de la tarjeta*/
 	font-size: .7rem;
     
@@ -521,7 +521,7 @@ img{
   /*cursor:pointer;*/
   padding-bottom: 40px;
 }
-.card-body:{
+.card-body{
 	background: var(--first-color);
 }	
 .card-title{  
@@ -849,6 +849,9 @@ img{
 .footer__social:hover{
     color: var(--white-color);
 }*/
+.footer__bordes{
+    padding-left: 1rem;
+}
 
 /* Configuraciones adicionales: MEDIA QUERIES (Aún en desarrollo)*/
 /* Para dispositivos pequenos / For small devices */
