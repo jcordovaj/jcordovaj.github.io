@@ -75,10 +75,10 @@ sr.reveal('.media.service-box', {interval: 600})
 sr.reveal('.portfolio__img', {interval: 800})
 
 /*SCROLL PUBLICACIONES*/
-sr.reveal('.publicaciones__subtitle.pad__parrafo', {interval: 200})
-sr.reveal('.publicaciones__text.proyectos__bordes', {interval: 400})
-sr.reveal('.media.service-box', {interval: 600})
-sr.reveal('.portfolio__img', {interval: 800})
+sr.reveal('.pubs__subtitle.pad__parrafo', {interval: 200})
+sr.reveal('.pubs__text.pad__parrafo', {interval: 400})
+sr.reveal('.card card-block.pad__cards', {interval: 600})
+
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__subtitle', {})
