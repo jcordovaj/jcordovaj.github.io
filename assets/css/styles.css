@@ -416,7 +416,7 @@ img{
 }
 .proyectos__subtitle{
     color: var(--first-color);
-    font-size: var(--h4-font-size);
+    font-size: var(--h5-font-size);
     margin-bottom: var(--mb-1);
 	text-align: justify;
 }
@@ -435,11 +435,7 @@ img{
 	padding-top: 0;
 }
 /* Clases para las tarjetas*/
-.proyectos__bordes{
-    padding-left: 1rem;
-	padding-top: 0.5 rem;
-    margin-bottom: 5px;
-}
+ 
 .container-media{
     padding-bottom: 0.5rem;
 	padding-top: 0.5rem;
@@ -505,9 +501,28 @@ img{
     transition: .3s;
 }
 .pubs__img:hover
+.pubs__subtitle{
+    color: var(--first-color);
+    font-size: var(--h5-font-size);
+    margin-bottom: var(--mb-1);
+	text-align: justify;
+}
+.pubs__text{
+    display: block;
+    font-size: var(--small-font-size);
+    margin-right: 0;  /* test var(--mb-2);*/
+    margin-bottom: 0; /* test var(--mb-1);*/
+    padding: 0;       /* test .25rem .5rem;*/
+    border-radius: .25rem;
+	text-align: justify;
+}
+.pubs__bordes{
+    padding-left: 1rem;
+	padding-top: 0.5 rem;
+    margin-bottom: 5px;
+}
 .pad__cards{				/*col-md-3 col-sm-6 pubs*/
-	padding-bottom: 20px;
-	padding-top: 20px;
+	padding: 20px;
 }
 /*.pubs__link{
     bottom: 0;

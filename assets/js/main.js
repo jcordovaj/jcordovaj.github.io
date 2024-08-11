@@ -66,11 +66,17 @@ sr.reveal('.skills__subtitle', {})
 /* REEMPL SKILLS__TEXT sr.reveal('.skills__name', {distance: '20px', delay: 50, interval: 100})*/
 sr.reveal('.skills__text', {delay: 400})
 sr.reveal('.skills__img', {delay: 500})
-sr.reveal('.MultiCarousel', {delay: 600})
+sr.reveal('.MultiCarousel', {delay: 600}) /* Librería usada para mostrar las credenciales*/
 
-/*SCROLL PORTFOLIO*/
+/*SCROLL PORTAFOLIO*/
 sr.reveal('.proyectos__subtitle.proyectos__bordes', {interval: 200})
 sr.reveal('.proyectos__text.proyectos__bordes', {interval: 400})
+sr.reveal('.media.service-box', {interval: 600})
+sr.reveal('.portfolio__img', {interval: 800})
+
+/*SCROLL PUBLICACIONES*/
+sr.reveal('.publicaciones__subtitle.pad__parrafo', {interval: 200})
+sr.reveal('.publicaciones__text.proyectos__bordes', {interval: 400})
 sr.reveal('.media.service-box', {interval: 600})
 sr.reveal('.portfolio__img', {interval: 800})
 
