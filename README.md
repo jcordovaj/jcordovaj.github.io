@@ -1,6 +1,4 @@
-![1723393014424](image/Readme/1723393014424.png)
-
-# Portafolio Personal: Demostrando Habilidades Full Stack
+# ![1723405228012](image/Readme/1723405228012.png)Proyecto Portafolio Personal: Demostrando Habilidades Full Stack
 
 ## Introducción
 
@@ -8,8 +6,8 @@ Este proyecto nace como resultado de la evaluación al término del módulo 2 de
 
 La página web es **responsiva**, adaptándose a diferentes dispositivos, y cuenta con las siguientes secciones:
 
-* **Información personal:** Un breve resumen sobre la persona y sus intereses.
-* **Habilidades:** Un carrusel que muestra certificaciones en forma interactivas, accediendo ademas al link de verificacion.
+* **Información personal:** Un breve resumen sobre el autor y sus intereses en la SECCIÓN: "About"/"Acerca de". Se personalizan los estilos CSS, en la sección del mismo nombre.
+* **Credenciales:** Se organizan visualmente las babilidades en un carrusel que muestra certificaciones en forma interactiva, accediendo ademas al link de verificacion. Se utiliza una librería javascript llamada "Multicarrousel".
 * **Proyectos:** Una galería con proyectos destacados.
 * **Artículos:** Presenta una introduccion a distintos articulos escritos por el autor sobre tecnologia y un link para leerlos en forma completa.
 * **Timeline:** Se presenta como un concepto grafico en una linea de tiempo, que permite acceder a informacion expansiva sobre experiencias especificas de la trayectoria profesional.
@@ -107,7 +105,7 @@ En la realización de este proyecto se han utilizado, principalmente, las siguie
 * **jQuery:** Biblioteca JavaScript para simplificar la manipulación del DOM.
 * **HTML:** Lenguaje de marcado para estructurar el contenido de la página.
 * **Visual Studio Code:** Entorno de desarrollo integrado para escribir y depurar el código.
-* Notepad++: Edición de documentos con formatos específicos, principalmente CSS y JS.
+* **Notepad++:** Edición de documentos con formatos específicos, principalmente CSS y JS.
 
 ## Cómo contribuir
 
