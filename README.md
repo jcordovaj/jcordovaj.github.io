@@ -1,4 +1,4 @@
-![1723393014424](image/Readme/1723393014424.png)
+![1723393014424](image/Readme/inicio.png)
 
 # Portafolio Personal: Demostrando Habilidades Full Stack
 
