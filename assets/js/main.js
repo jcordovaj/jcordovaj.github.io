@@ -64,9 +64,9 @@ sr.reveal('.about__social-icon', {delay: 600, interval: 200})
 /*SCROLL SKILLS*/
 sr.reveal('.skills__subtitle', {})
 /* REEMPL SKILLS__TEXT sr.reveal('.skills__name', {distance: '20px', delay: 50, interval: 100})*/
-sr.reveal('.skills__text', {distance: '20px', delay: 50, interval: 100})
-sr.reveal('.skills__img', {delay: 400})
-sr.reveal('.MultiCarousel', {delay: 500})
+sr.reveal('.skills__text', {delay: 400})
+sr.reveal('.skills__img', {delay: 500})
+sr.reveal('.MultiCarousel', {delay: 600})
 
 /*SCROLL PORTFOLIO*/
 sr.reveal('.portfolio__img', {interval: 200})
