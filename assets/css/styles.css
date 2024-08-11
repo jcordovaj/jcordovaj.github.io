@@ -501,7 +501,7 @@ img{
 }
 .pubs__img:hover
 .pubs__subtitle{
-    color: var(--first-color);
+    color: var(--first-color) !important;
     font-size: var(--h5-font-size);
     margin-bottom: var(--mb-1);
 	text-align: justify;
