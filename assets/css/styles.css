@@ -496,7 +496,6 @@ img{
     align-items: center;
     background-color: rgba(255,255,255,.3);
     border-radius: .5rem;
-    /*cursor: pointer;*/
     backdrop-filter: blur(8px);
     transition: .3s;
 }
@@ -516,6 +515,9 @@ img{
     border-radius: .25rem;
 	text-align: justify;
 }
+.pad__parrafo{
+	padding-bottom: 20px;
+}
 .pubs__bordes{
     padding-left: 1rem;
 	padding-top: 0.5 rem;
@@ -531,9 +533,6 @@ img{
     color: var(--dark-color);
 }
 /* EFECTOS PUBS*/
-.pad__parrafo{
-	padding-bottom: 20px;
-}
 .card-title h5{
   /*text-align: justify;*/
   text-align: center;
@@ -561,7 +560,7 @@ img{
   text-align: right; /* desacoplar clase original de la librería*/
 }
 .card-title i{  
-  font-size:15px;
+  font-size:8px;
   transition:1s;
   cursor:pointer;
   color: #9fc5e8;
@@ -569,14 +568,14 @@ img{
 .card-title i:hover{
   transform: scale(1.25) rotate(100deg); 
   color: #ffa710	/* #18d4ca (turquesa); color base=#9fc5e8 */
-  
 }
 .card:hover{
   transform: scale(1.05);
   box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
 }
 .card-text-publicaciones{
-  height:80px;  
+  height:80px;
+  font-size: 4px;  
 }
 .card::before, .card::after {
   position: absolute;
@@ -598,7 +597,6 @@ img{
 }
 .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
   transform: scale3d(1, 1, 1);
-
 }
 /*FIN EFECTOS*/
 
