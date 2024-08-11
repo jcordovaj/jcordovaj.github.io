@@ -470,6 +470,8 @@ img{
 
 /* SECCION: Publicaciones ("pubs")
 ----------------------------------------------------------*/
+
+/* Sección general*/
 .pubs{
     background-color: var(--white-color);
 }
@@ -545,18 +547,17 @@ img{
   padding-left:20px;
   padding-right:20px;
 }
+/* Estructura de las tarjetas de las Publicaciones*/
 .card{
   transition:0.5s;
-  /*cursor:pointer;*/
   padding-bottom: 40px;
 }
-.card-body{
+/*.card-body{
 	background: var(--first-color);
-}	
+}*/	
 .card-title{  
-  font-size:15px;
+  font-size:8px;
   transition:1s;
-  /*cursor:pointer;*/
   text-align: right; /* desacoplar clase original de la librería*/
 }
 .card-title i{  
@@ -566,12 +567,12 @@ img{
   color: #9fc5e8;
 }
 .card-title i:hover{
-  transform: scale(1.25) rotate(100deg); 
-  color: #ffa710	/* #18d4ca (turquesa); color base=#9fc5e8 */
+  transform: scale(1.75) rotate(100deg); 
+  color: #ffa710
 }
 .card:hover{
-  transform: scale(1.05);
-  box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+  transform: scale(1.1);
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.5);
 }
 .card-text-publicaciones{
   height:80px;
