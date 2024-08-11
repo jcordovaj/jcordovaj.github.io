@@ -355,7 +355,7 @@ img{
 .skills__img{
     position: relative;
     overflow: hidden;
-	height: 150px;
+	height: 100%; /* Antes 150px, se ve amorfo*/
     width: 100%;
 }
 .skills__img img{
