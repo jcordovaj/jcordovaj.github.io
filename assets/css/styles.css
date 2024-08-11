@@ -344,10 +344,10 @@ img{
     border-radius: .25rem;
 	text-align: justify;
 }
-.skills__text:hover{
+/*.skills__text:hover{
     background-color: var(--first-color);
     color: var(--white-color);
-}
+}*/
 .skills__name:hover{
     background-color: var(--first-color);
     color: var(--white-color);
