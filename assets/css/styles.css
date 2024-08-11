@@ -258,7 +258,6 @@ img{
 .skills__container{
     row-gap: 2rem;
 }
-
 /* Implementación libreria multicarrusel
 ----------------------------------------------------------*/
 .MultiCarousel { 
@@ -323,7 +322,7 @@ img{
     color: var(--first-color);
     font-size: var(--h2-font-size);
     margin-bottom: var(--mb-1);
-	text-align: center;
+	text-align: justify;
 }
 .skills__name{
     display: block;
