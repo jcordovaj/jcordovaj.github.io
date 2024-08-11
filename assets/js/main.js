@@ -76,8 +76,8 @@ sr.reveal('.portfolio__img', {interval: 800})
 
 /*SCROLL PUBLICACIONES*/
 sr.reveal('.pubs__subtitle.pad__parrafo', {interval: 200})
-sr.reveal('.pubs__text.pad__parrafo', {distance: '40px', delay: 50, interval: 150})
-/*sr.reveal('.pubs__text.pad__parrafo', {interval: 400}) reemplaza para testear aparición por párrafo*/
+/*sr.reveal('.pubs__text.pad__parrafo', {distance: '40px', delay: 50, interval: 150})*/
+sr.reveal('.pubs__text.pad__parrafo', {interval: 400}) /*reemplaza para testear aparición por párrafo*/
 sr.reveal('.card card-block.pad__cards', {interval: 600})
 
 
