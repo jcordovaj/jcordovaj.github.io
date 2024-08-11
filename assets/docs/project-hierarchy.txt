@@ -1,0 +1,76 @@
+Repos
+  │─ jcordovaj.github.io
+  ├─ assets
+  │  ├─ css
+  │  │  ├─ error404.css
+  │  │  └─ styles.css
+  │  ├─ docs
+  │  │  ├─ readme.html
+  │  │  ├─ readme.pdf
+  │  │  └─ t2d.md
+  │  ├─ img
+  │  │  ├─ 640x425
+  │  │  │  ├─ 1.jpg
+  │  │  │  ├─ 3.png
+  │  │  │  ├─ 4.jpg
+  │  │  │  ├─ anomalias.png
+  │  │  │  ├─ cinefilos.gif
+  │  │  │  ├─ dashventas.png
+  │  │  │  ├─ descarga1.jpg
+  │  │  │  ├─ encuesta.png
+  │  │  │  ├─ Looker1.png
+  │  │  │  └─ pfinal.PNG
+  │  │  ├─ articulo-1.PNG
+  │  │  ├─ badges_sm
+  │  │  │  ├─ BI_FoundProCert_BIFPC.png
+  │  │  │  ├─ BI_FoundProCert_BIFPC_sm.png
+  │  │  │  ├─ british_changingandgrowbiz_c1.png
+  │  │  │  ├─ british_changingandgrowbiz_c1_sm.png
+  │  │  │  ├─ British_PeopleandEventsC1.png
+  │  │  │  ├─ British_PeopleandEventsC1_sm.png
+  │  │  │  ├─ british_productresearchanddevel_c1.png
+  │  │  │  ├─ british_productresearchanddevel_c1_sm.png
+  │  │  │  ├─ British_RecreationandRelaxC1.png
+  │  │  │  ├─ British_YesterdayTodayandTomorrowC1.png
+  │  │  │  ├─ British_YesterdayTodayandTomorrowC1_sm.png
+  │  │  │  ├─ LeanSixSigmaWhiteBeltProfessionalCertificationLSSWBPC.png
+  │  │  │  ├─ LeanSixSigmaWhiteBeltProfessionalCertificationLSSWBPC_sm.png
+  │  │  │  ├─ lifelong-learning.png
+  │  │  │  ├─ PendoSuperCertified.png
+  │  │  │  ├─ PendoSuperCertified_sm.png
+  │  │  │  ├─ pendo_ai4productmanagement.png
+  │  │  │  ├─ pendo_ai4productmanagement_sm.png
+  │  │  │  ├─ pendo_digitaladoption.png
+  │  │  │  ├─ pendo_digitaladoption_sm.png
+  │  │  │  ├─ pendo_productanalytic.png
+  │  │  │  ├─ pendo_productanalytic_sm.png
+  │  │  │  ├─ Postman.png
+  │  │  │  ├─ Postman_sm.png
+  │  │  │  ├─ ScrumFoundationProfessionalCertificationSFPC.png
+  │  │  │  └─ ScrumFoundationProfessionalCertificationSFPC_sm.png
+  │  │  ├─ banner-bg.jpg
+  │  │  ├─ capturas
+  │  │  │  ├─ inicio.PNG
+  │  │  │  └─ inicio_pantallas_sm.PNG
+  │  │  ├─ chile02_512x512.png
+  │  │  ├─ github-stars-logo_Color.webp
+  │  │  ├─ ia_en_product_mngnt.PNG
+  │  │  ├─ IMG_20220226_110724.jpg
+  │  │  ├─ jc.ico
+  │  │  ├─ OpinionBraverman.PNG
+  │  │  ├─ opinionEconomics.PNG
+  │  │  ├─ perfil.jpg
+  │  │  ├─ perfil.png
+  │  │  └─ perfil_bg.png
+  │  └─ js
+  │     ├─ bootstrap.min.js
+  │     ├─ local.js
+  │     ├─ main.js
+  │     ├─ multicarousel.js
+  │     └─ script.js
+  ├─ error404.html
+  ├─ image
+  │  └─ Readme
+  │     └─ inicio.png
+  ├─ index.html
+  └─ Readme.md
