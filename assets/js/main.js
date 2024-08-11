@@ -66,7 +66,7 @@ sr.reveal('.skills__subtitle', {})
 /* REEMPL SKILLS__TEXT sr.reveal('.skills__name', {distance: '20px', delay: 50, interval: 100})*/
 sr.reveal('.skills__text', {distance: '20px', delay: 50, interval: 100})
 sr.reveal('.skills__img', {delay: 400})
-sr.reveal('.MultiCarousel', {delay: 400})
+sr.reveal('.MultiCarousel', {delay: 500})
 
 /*SCROLL PORTFOLIO*/
 sr.reveal('.portfolio__img', {interval: 200})
