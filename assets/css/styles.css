@@ -420,14 +420,25 @@ img{
     margin-bottom: var(--mb-1);
 	text-align: justify;
 }
+.proyectos__text{
+    display: block;
+    font-size: var(--small-font-size);
+    margin-right: 0;  /* test var(--mb-2);*/
+    margin-bottom: 0; /* test var(--mb-1);*/
+    padding: 0;       /* test .25rem .5rem;*/
+    border-radius: .25rem;
+	text-align: justify;
+}
 .proyectos__ico{
     color: var(--first-color);
 	padding-bottom: 0;
 	padding-top: 0;
 }
+/* Clases para las tarjetas*/
 .proyectos__bordes{
     padding-left: 1rem;
 	padding-top: 0.5 rem;
+    margin-bottom: 5px;
 }
 .container-media{
     padding-bottom: 0.5rem;

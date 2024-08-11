@@ -69,9 +69,10 @@ sr.reveal('.skills__img', {delay: 500})
 sr.reveal('.MultiCarousel', {delay: 600})
 
 /*SCROLL PORTFOLIO*/
-sr.reveal('.proyectos__bordes', {interval: 200})
-
-sr.reveal('.portfolio__img', {interval: 400})
+sr.reveal('.proyectos__subtitle.proyectos__bordes', {interval: 200})
+sr.reveal('.proyectos__text.proyectos__bordes', {interval: 400})
+sr.reveal('.media.service-box', {interval: 600})
+sr.reveal('.portfolio__img', {interval: 800})
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__subtitle', {})
