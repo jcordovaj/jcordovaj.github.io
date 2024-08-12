@@ -61,7 +61,7 @@
 
 ## Documentación
 
-* **Guía de estilo:** Consulta la guía de estilo y buenas prácticas del proyecto. [ir a &#34;Guía de Estilo&#34;](assets/docs/buenasPracticas.md "Buenas Prácticas")
+* **Guía de estilo:** Consulta la guía de estilo y buenas prácticas del proyecto. [ir a &#34;Guía de Estilo&#34;](buenasPracticas.md "Buenas Prácticas")
 * **Arquitectura del sistema:** Diagrama o descripción de la arquitectura. (./assets/docs/architecture.png, pendiente*)
 
 ## Otros
