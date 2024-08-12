@@ -80,6 +80,8 @@ sr.reveal('.pubs__subtitle.pad__parrafo', {interval: 200})
 sr.reveal('.pubs__text.pad__parrafo', {interval: 400}) /*reemplaza para testear aparición por párrafo*/
 sr.reveal('.card card-block.pad__cards', {interval: 600})
 
+/*SCROLL TIMELINE*/
+sr.reveal('.news-content', {distance: '50px', delay: 50, interval: 100})
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__subtitle', {})
@@ -87,8 +89,4 @@ sr.reveal('.contact__text', {interval: 200})
 sr.reveal('.contact__input', {delay: 400})
 sr.reveal('.contact__button', {delay: 500})
 sr.reveal('.contact__button__cancel', {delay: 600})
-
-/*SCROLL NUEVA SECCIÓN*/
-
-
-
+sr.reveal('.contact__map', {delay: 500})
