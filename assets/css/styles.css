@@ -484,6 +484,7 @@ img{
     overflow: hidden;
 	height: 150px;
     width: 100%;
+    padding:10px;
 }
 .pubs__img img{
     border-radius: .5rem;
