@@ -842,11 +842,11 @@ img{
     cursor: pointer;
 }
 .map {
-  height: 100px;
-}
-.contact__map{
     width: 500px; /* Adjust width if needed */
     height: 200px; /* Adjust height if needed */
+    border: 0; /* Remove the inline border style */
+}
+.contact__map{
     border: 0; /* Remove the inline border style */
 }
 
