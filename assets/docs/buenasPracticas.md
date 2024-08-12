@@ -65,7 +65,8 @@
   * **Ejemplo CSS sin espacios:**
 
     .button{padding:10px;background-color:#007bff;border:none;color:#fff;}
-* E**jemplo CSS con espacios:**
+
+  * **Ejemplo CSS con espacios:**
 
 ```
 	.button {
@@ -86,7 +87,7 @@
 
 * Utilizar atributos alt descriptivos en las imágenes.
 * Proporcionar etiquetas "title" para los enlaces.
-* Utilizar encabezados semánticos (h1, h2, etc.), acompañados por la clase de la sección, (h1 class="skills__subtitle").
+* Utilizar encabezados semánticos (h1, h2, etc.), acompañados por la clase de la sección, (ejemplo, h1 class="skills__subtitle").
 * Procurar que el contenido sea accesible para usuarios con discapacidades.
 
 ### Rendimiento:
@@ -105,7 +106,7 @@
 * Utiliza clases y ID de forma eficiente para evitar conflictos de estilos.
 * Evita el uso excesivo del selector universal (*).
 
-Modularidad:
+### Modularidad:
 
 * Divide tus estilos en archivos CSS separados para una mejor organización.
 * Utiliza preprocesadores CSS (Sass, Less) para mejorar la modularidad y la reutilización de código.
@@ -156,7 +157,6 @@ Modularidad:
 * Considera el uso de un framework CSS (Bootstrap, Materialize) o un framework JavaScript (React, Angular) para acelerar el desarrollo.
 
 ## Ejemplo de Estructura de Carpetas
-
 
 │─ jcordovaj.github.io
   ├─ assets
