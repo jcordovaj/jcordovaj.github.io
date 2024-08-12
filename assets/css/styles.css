@@ -507,6 +507,7 @@ img{
     font-size: var(--h5-font-size);
     margin-bottom: var(--mb-1);
 	text-align: justify;
+    padding-bottom: 20px;
 }
 .pubs__text{
     display: block;
@@ -516,9 +517,7 @@ img{
     padding: 0;       /* test .25rem .5rem;*/
     border-radius: .25rem;
 	text-align: justify;
-}
-.pad__parrafo{
-	padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 .pubs__bordes{
     padding-left: 1rem;
@@ -533,13 +532,17 @@ img{
 }*/
 .pubs__link-name{
     color: var(--dark-color);
+    position: absolute;
+    font-size: .8rem;
+    transition: 1s;
+    text-align: right; /* desacoplar clase original de la librería*/
 }
 /* EFECTOS PUBS*/
-.card-title h5{
+/*.card-title h5{
   /*text-align: justify;*/
-  text-align: center;
+  /*text-align: center;
   padding-bottom: 10px;
-}
+}*/
 .bx .bxs-cog{
   color:#9fc5e8;
 }
@@ -550,24 +553,26 @@ img{
 /* Estructura de las tarjetas de las Publicaciones*/
 .card{
   transition:0.5s;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 /*.card-body{
 	background: var(--first-color);
 }*/	
-.card-title{  
-  font-size:8px;
-  transition:1s;
-  text-align: right; /* desacoplar clase original de la librería*/
-}
+.card-title-personal{  
+  font-size: .8rem;
+  transition: 1s;
+  text-align: right;     /* desacoplar clase original de la librería*/
+  margin-top: 0.5rem;    /* Equivalente a 0.5*mt-3 */
+  margin-bottom: 0.5rem; /* Equivalente a 0,5*mb-3 */
+  }
 .card-title i{  
-  font-size:8px;
-  transition:1s;
-  cursor:pointer;
+  font-size: .8px;
+  transition: 1s;
+  cursor: pointer;
   color: #9fc5e8;
 }
 .card-title i:hover{
-  transform: scale(1.75) rotate(100deg); 
+  transform: scale(2.0) rotate(100deg); 
   color: #ffa710
 }
 .card:hover{
@@ -576,7 +581,7 @@ img{
 }
 .card-text-publicaciones{
   height:80px;
-  font-size: 4px;  
+  font-size: .6rem;  
 }
 .card::before, .card::after {
   position: absolute;
