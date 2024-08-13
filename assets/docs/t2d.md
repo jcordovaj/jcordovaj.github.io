@@ -27,15 +27,14 @@
 ## Errores Conocidos
 
 * **Bug 1:**
-  * Descripción detallada del error: Bajo ciertas combinaciones en ambiente de pre-producción, se observó que al volver a renderizarse la página de inicio, se produce una franja vertical blanca al costado derecho (bajo la franja del NAV, debajo del link al readme), podría ser por diferencias de ajuste al cambiar de tamaños de la clase NAV y el HEAD,  y/o por efectos de la librería que muestra progresivamente los contenidos. Cuando la página debe recalcular muchas veces la distribución de los objetos contenidos, a veces queda en espera y no renderiza.
-  * Pasos para reproducirlo: Navegar por la página, abrir las herramientas de programdor, retornar al inicio, cambiar los tamaños. No se ha encontrado la combinación exacta del evento.
+  * Descripción detallada del error: Bajo ciertas combinaciones, seha observado que al volver a renderizarse la página de inicio, se produce una franja vertical blanca al costado derecho (bajo la franja del NAV, debajo del link al readme), podría ser por diferencias de ajuste al cambiar de tamaños de la clase NAV y el HEAD,  y/o por efectos de la librería que muestra progresivamente los contenidos. Cuando la página debe recalcular muchas veces la distribución de los objetos contenidos, a veces queda en espera y no renderiza.
+  * Pasos para reproducirlo: Navegar por la página, abrir las herramientas de programdor, retornar al inicio, cambiar los tamaños. No se ha encontrado la combinación exacta para reproducir el evento.
   * Walkaround: Refrescar la página. Normalmente, se vuelve a renderizar bien, después de la primera vez.
-  * Capturas de pantalla: 
-
-
+  * Capturas de pantalla:
+  *  ![1723511989225](image/t2d/1723511989225.png)
 * **Bug 2:**
-  * Descripción detallada del error: Secciones que quedan en blanco o no renderizan bien sus contenidos. En la documentación de la librería scroll reveal, indica que cuando que cambian rápidamente los tamaños de pantalla en modo responsivo y, además, el javascript del efecto está activo, puede ocurrir que no se renderize la página.
-  * Pasos para reproducirlo: Cambiar el tamaño repetidamente .
+  * Descripción detallada del error: Secciones que quedan en blanco o no renderizan bien sus contenidos. En la documentación de la librería "scroll reveal" de javascript, indica que cuando que cambian rápidamente los tamaños de pantalla en modo responsivo y, además, el javascript del efecto está activo, puede ocurrir que no se renderize la página.
+  * Pasos para reproducirlo: Cambiar el tamaño repetida y rápidamente .
   * Walkaround: Refrescar la página. Normalmente, se vuelve a renderizar bien, después de la primera vez que se refresca.
   * Capturas de pantalla:
 
