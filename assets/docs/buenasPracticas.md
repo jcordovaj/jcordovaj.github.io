@@ -2,57 +2,54 @@
 
 ## Estructura y Organización
 
-### Semántica HTML:
+### Semántica HTML
 
 * Utilizar etiquetas HTML con su significado semántico correcto (p.ej., `<h1>` para encabezados, `<nav>` para navegación, `<section>` para secciones).
 * Evitar usar divs genéricos a menos que sea estrictamente necesario o se dejé pendiente de renombrar en el backlog para evitar duplicidades. Crear lógica de nombres por sección o documentar en cada sección los nombres importados, por ejemplo, con el uso de librerías externas.
 
-### Estructura de archivos:
+### Estructura de archivos
 
 * Usar las carpetas respectivas para almacenar nuevos archivos. En este proyecto, hay una carpeta "assets" que contiene carpetas para CSS, JS, IMG y DOCS. En la raíz, sólo se mantienen el "index", "README" y "error404".
 * Los archivos deben seguir la lógica de sus carpetas, por ejemplo, los de extensión "css", van a la carpeta CSS, y los "js", a la carpeta JS.
 
-### Convenciones de nombrado:
+### Convenciones de nombrado
 
 * Utiliza nombres de clases y ID descriptivos y consistentes con la SECCIÓN a la que pertenecen.
 * Sigue una convención de nombrado, por ejemplo, BEM (Block, Element, Modifier), SMACSS (Scalable and Modular Architecture for CSS).
 
   Ejemplo BEM:
 
-  .button { /* Bloque */
-  /* Estilos básicos del botón */
+  .button { /*Bloque */
+  /* Estilos básicos del botón*/
   }
-  .button__text { /* Elemento dentro del bloque */
-  /* Estilos del texto del botón */
+  .button__text { /*Elemento dentro del bloque */
+  /* Estilos del texto del botón*/
   }
-  .button--primary { /* Modificador del bloque */
-  /* Estilos para un botón primario */
+  .button--primary { /*Modificador del bloque*/
+  /*Estilos para un botón primario*/
   }
 
   Ejemplo SMACSS:
 
-  /* Base */
+  /*Base*/
   body {
   font-family: sans-serif;
   }
-
   /* Layout */
   .container {
   max-width: 1200px;
   margin: 0 auto;
   }
-
   /* Módulo*/
   .button {
-  /* Estilos del botón */
+  /*Estilos del botón*/
   }
-
-  /* Estado*/
+  /*Estado*/
   .button:hover {
-  /* Estilos al pasar el ratón por encima */
+  /*Estilos al pasar el ratón por encima*/
   }
 
-  /* Tema */
+  /*Tema*/
   .primary {
   color: blue;
   }
@@ -65,7 +62,6 @@
   * **Ejemplo CSS sin espacios:**
 
     .button{padding:10px;background-color:#007bff;border:none;color:#fff;}
-
   * **Ejemplo CSS con espacios:**
 
 ```
@@ -104,11 +100,12 @@
 ### Especificidad:
 
 * Utiliza clases y ID de forma eficiente para evitar conflictos de estilos.
-* Evita el uso excesivo del selector universal (*).
+* Evitar el uso excesivo del selector universal (*).
 
 ### Modularidad:
 
 * Divide tus estilos en archivos CSS separados para una mejor organización.
+* En el archivo de estilos personalizados, organiza  la página en forma top-down, primero con las clases globales o "root:", luego, agrupa las clases por sección, partiendo por las más generales (e.g: Containers, DIVs, etiqueta), para minimizar los problemas con el efecto cascada.
 * Utiliza preprocesadores CSS (Sass, Less) para mejorar la modularidad y la reutilización de código.
 
 ### Rendimiento:
