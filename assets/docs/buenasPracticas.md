@@ -1,3 +1,5 @@
+![1723511400199](image/buenasPracticas/1723511400199.png)
+
 # Guía de Buenas Prácticas
 
 ## Estructura y Organización
