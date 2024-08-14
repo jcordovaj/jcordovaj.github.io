@@ -1,13 +1,13 @@
 ![1723511400199](image/buenasPracticas/1723511400199.png)
 
-# Guía de Buenas Prácticas
+# Guía de Estilo y Buenas Prácticas para Colaboradores
 
 ## Estructura y Organización
 
 ### Semántica HTML
 
 * Utilizar etiquetas HTML con su significado semántico correcto (p.ej., `<h1>` para encabezados, `<nav>` para navegación, `<section>` para secciones).
-* Evitar usar divs genéricos a menos que sea estrictamente necesario o se dejé pendiente de renombrar en el backlog para evitar duplicidades. Crear lógica de nombres por sección o documentar en cada sección los nombres importados, por ejemplo, con el uso de librerías externas.
+* Evitar usar divs genéricos a menos que sea estrictamente necesario o se dejé pendiente de renombrar en el backlog para evitar duplicidades. Crear lógica de nombres por sección y documentar en cada sección los nombres importados, por ejemplo, cuando se utilicen librerías externas.
 
 ### Estructura de archivos
 
@@ -21,6 +21,7 @@
 
   Ejemplo BEM:
 
+  ```
   .button { /*Bloque */
   /* Estilos básicos del botón*/
   }
@@ -30,9 +31,11 @@
   .button--primary { /*Modificador del bloque*/
   /*Estilos para un botón primario*/
   }
+  ```
 
   Ejemplo SMACSS:
 
+  ```
   /*Base*/
   body {
   font-family: sans-serif;
@@ -55,6 +58,7 @@
   .primary {
   color: blue;
   }
+  ```
 
 ### Indentación y espaciado:
 
@@ -145,7 +149,7 @@
 
 ### Control de versiones:
 
-* Utiliza un sistema de control de versiones como Git para gestionar los cambios en tu código.
+* Al hacer un commit, agrega información descriptiva y lo suficientemente completa para poder gestionar los cambios en el código y facilitar la revisión del pull request.
 
 ### Linter:
 
@@ -153,35 +157,8 @@
 
 ### Framework:
 
-* Considera el uso de un framework CSS (Bootstrap, Materialize) o un framework JavaScript (React, Angular) para acelerar el desarrollo.
+* Para estructuras complejas, considera el uso de un framework CSS (Bootstrap, Materialize). En siguientes versiones, se considera usas un framework JavaScript (React, Angular) para acelerar el desarrollo y mejorar la mantenibilidad.
 
 ## Ejemplo de Estructura de Carpetas
 
-│─ jcordovaj.github.io
-  ├─ assets
-  │  ├─ css
-  │  │  ├─ error404.css
-  │  │  └─ styles.css
-  │  ├─ docs
-  │  │  ├─ readme.html
-  │  │  ├─ readme.pdf
-  │  │  └─ t2d.md
-  │  ├─ img
-  │  │  ├─ articulo-1.PNG
-  │  │  ├─ banner-bg.jpg
-  │  │  ├─ capturas
-  │  │  │  ├─ inicio.PNG
-  │  │  │  └─ inicio_pantallas_sm.PNG
-  │  │  ├─ jc.ico
-  │  │  ├─ perfil.png
-  │  │  └─ perfil_bg.png
-  │  └─ js
-  │     ├─ bootstrap.min.js
-  │     ├─ local.js
-  │     └─ script.js
-  ├─ error404.html
-  ├─ image
-  │  └─ Readme
-  │     └─ inicio.png
-  ├─ index.html
-  └─ Readme.md
+![1723535786292](image/buenasPracticas/1723535786292.png)
