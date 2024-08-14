@@ -90,8 +90,7 @@ img{
     right: 0;
 	margin: auto;  	/*Prueba auto; original*/
     top: 2rem; 		/*2rem/0.5rem*/
-    /*background-color: var(--first-color);*/
-	text-decoration: none; /*agregado*/
+    text-decoration: none; /*agregado*/
 }
 .bd-grid{						 /* Configuración del grid por defecto*/
     max-width: 1024px;
@@ -757,6 +756,7 @@ img{
     font-size: 16px;
     color: #7A7C7F;
     line-height: 24px;
+	cursor: pointer;
 }
 .news-item:hover .news-content .read-more,
 .news-item:hover .news-content .read-more:hover,
