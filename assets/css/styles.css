@@ -788,6 +788,37 @@ img{
 .news-item:hover .news-content .read-more:after {
     color: #fff;
 }
+/* Clases usadas en el MODAL de Timeline*/
+.modal {
+  display: none; /* Inicialmente oculto */
+  position: fixed; /* Fija la posición */
+  z-index: 1; /* Asegura que esté encima de otros elementos */
+  left: 0;
+  top: 0;
+  width: 100%; /* Cubre toda la pantalla */
+  height: 100%;
+  overflow: auto; /* Permite el scroll si el contenido es muy largo */
+  background-color: rgba(0,0,0,0.4); /* Fondo semitransparente */
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 /* SECCION: Formulario de contacto 
 ----------------------------------------------------------*/
