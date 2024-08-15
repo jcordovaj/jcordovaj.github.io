@@ -61,103 +61,105 @@
   }
   ```
 
-### Indentación y espaciado:
+### Indentación y espaciado
 
 * Indentación consistente (4 espacios) para mejorar la legibilidad.
 * Agrega espacios en blanco alrededor de los operadores y dentro de las propiedades CSS.
 
   * **Ejemplo CSS sin espacios:**
+
 ```CSS
     .button{padding:10px;background-color:#007bff;border:none;color:#fff;}
 ```
-  * **Ejemplo CSS con espacios:**
 
-```
-	.button {
- 	 padding: 10px;
-  	background-color: #007bff;
-  	border: none;
-	  color: #fff;
-	}
+* **Ejemplo CSS con espacios:**
+
+```CSS
+ .button {
+   padding: 10px;
+   background-color: #007bff;
+   border: none;
+   color: #fff;
+ }
 ```
 
 ## HTML
 
-### Validez:
+### Validez
 
 * Validar el HTML y hacer pruebas básicas de funcionalidad para asegurar que no hay errores de sintaxis.
 
-### Accesibilidad:
+### Accesibilidad
 
 * Utilizar atributos alt descriptivos en las imágenes.
 * Proporcionar etiquetas "title" para los enlaces.
 * Utilizar encabezados semánticos (h1, h2, etc.), acompañados por la clase de la sección, (ejemplo, h1 class="skills__subtitle").
 * Procurar que el contenido sea accesible para usuarios con discapacidades.
 
-### Rendimiento:
+### Rendimiento
 
 * Minimizar el número de elementos HTML.
 * Evitar anidar elementos innecesaria o excesivamente.
 
-### Mantenimiento:
+### Mantenimiento
 
 * Comentar el código por sección, por div, o por id, de ser necesario, sobretodo para explicar secciones complejas.
 
 ## CSS
 
-### Especificidad:
+### Especificidad
 
 * Utiliza clases y ID de forma eficiente para evitar conflictos de estilos.
 * Evitar el uso excesivo del selector universal (*).
 
-### Modularidad:
+### Modularidad
 
 * Divide tus estilos en archivos CSS separados para una mejor organización.
 * En el archivo de estilos personalizados, organiza  la página en forma top-down, primero con las clases globales o "root:", luego, agrupa las clases por sección, partiendo por las más generales (e.g: Containers, DIVs, etiqueta), para minimizar los problemas con el efecto cascada.
 * Utiliza preprocesadores CSS (Sass, Less) para mejorar la modularidad y la reutilización de código.
 
-### Rendimiento:
+### Rendimiento
 
 * Minimiza el número de archivos CSS.
 * Combina y comprime los archivos CSS.
 * Utiliza propiedades CSS3 eficientes.
 
-### Mantenimiento:
+### Mantenimiento
 
 * Organiza tus reglas CSS de forma lógica (por ejemplo, por tipo de selector, por componente).
 * Utiliza comentarios para explicar las reglas CSS complejas.
 
 ## JavaScript
 
-### Modularidad:
+### Modularidad
 
 * Dividir el código en módulos o funciones reutilizables.
 
-### Pruebas:
+### Pruebas
 
 * Agrega  pruebas unitarias para garantizar la calidad de tu código.
 
-### Rendimiento:
+### Rendimiento
 
 * Minimizar el número de consultas al DOM para no degradar el rendimiento de la página.
 * Evitar bucles innecesarios.
 * Utiliza técnicas de optimización de JavaScript.
 
-### Mantenimiento:
+### Mantenimiento
 
 * Comenta tu código JavaScript para explicarlo.
 * Utiliza nombres de variables y funciones descriptivos.
 * Otras Consideraciones
 
-### Control de versiones:
+### Control de versiones
 
 * Al hacer un commit, agrega información descriptiva y lo suficientemente completa para poder gestionar los cambios en el código y facilitar la revisión del pull request.
 
-### Linter:
+### Linter
 
 * Utiliza un linter para identificar errores y mejorar la calidad del código.
 
-### Framework:
+### Framework
 
 * Para estructuras complejas, considera el uso de un framework CSS (Bootstrap, Materialize). En siguientes versiones, se considera usas un framework JavaScript (React, Angular) para acelerar el desarrollo y mejorar la mantenibilidad.
 
