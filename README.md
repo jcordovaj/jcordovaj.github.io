@@ -11,7 +11,7 @@ La página web es **responsiva**, adaptándose a diferentes dispositivos, y cuen
 * **Home:** la solución consiste de una sobria pero llamativa sección de "Inicio" o "Home", que posee una interfaz intuitiva, que organiza la información de navegación mostrando las secciones del sitio en la parte superior. Adicionalmente, al cambiar de tamaño para pantallas más pequeñas (responsiveness), el menu se colapsa, ofreciendo una alternativa de interfaz con un menú lateral. Se han agregado tooltips, a algunas etiquetas o textos para facilitar su comprensión, por ejemplo, sobre el ícono del menú lateral en pantallas pequeñas.
   * Imagen Home pantallas grandes:
 * ![1723685220624](image/README/1723685220624.png)
-  * Imagen Home pantalls pequeñas:
+  * Imagen Home pantallas pequeñas:
 * ![1723685278054](image/README/1723685278054.png)
 * **Información personal (Acerca):** Se presenta un breve resumen sobre mi persona e intereses generales.
   * Imagen sección Acerca
@@ -27,10 +27,10 @@ La página web es **responsiva**, adaptándose a diferentes dispositivos, y cuen
 * **Publicaciones:** También se ha incluído una sección con PUBLICACIONES, donde se introducen distintos articulos y opiniones escritas por mi, sobre tecnologia y actualidad, ofreciendo al visitante "continuar leyéndolos", y se han agregado los links para leerlos en forma completa desde la fuente.
   * Imagen sección Publicaciones
   * ![1723686972270](image/README/1723686972270.png)
-* **Timeline:** Para concluir y escapando de la forma tradicional de presentar una hoja de vida, se concibió estructurar una "LINEA DE TIEMPO" y hacerlo más atractivo. Entonces, se presenta la información a través de un concepto gráfico con datos mínimos, si el visitante desea explorar más, se cliquea el link de "Leer más...", y se abre un modal con un detalle más amplio. Para lograr esto, se buscó y adaptó una librería que mostraba mostrar noticias. Se ha dejado como ejemplo completo, sólo la primera entrada a la línea de tiempo, el resto de elementos, presentan "Lorem ipsum" en donde corresponde, dejando su llenado para otra versión.
+* **Timeline:** Para concluir y escapando de la forma tradicional de presentar una hoja de vida, se concibió estructurar una "LINEA DE TIEMPO" y hacerlo más atractivo. Entonces, se presenta la información a través de un concepto gráfico con datos mínimos, si el visitante desea explorar más, se cliquea el link de "Leer más...", y se abre un modal con un detalle más amplio. Para lograr esto, se buscó y adaptó una librería que mostraba noticias. Se ha dejado como ejemplo completo, sólo la primera entrada a la línea de tiempo, el resto de elementos, presentan "Lorem ipsum" en donde corresponde, dejando su llenado para otra versión.
   * Imagen sección Timeline
   * ![1723687091008](image/README/1723687091008.png)
-* **Formulario de contacto:** Se incluye un formulario de contacto con validación de campos usando scripts de javascript. Tambien se agregó un selector de objetivo del mail (despliega 3 opciones), pudiendo la persona definir si su correo es con propósitos informativos, solicitando un presupuesto o, reclamar por alguna situacion. Se probó integrar el formulario con un servidor virtual de correo, pero no se ha conseguido el resultado esperado, lo que se dejó reflejado en el documento de "Cosas por Hacer" (T2D.md), como un pendiente con prioridad baja.
+* **Formulario de contacto:** Se incluye un formulario de contacto con validación de campos usando scripts de javascript. Tambien se agregó un selector de objetivo del mail (despliega 3 opciones), pudiendo la persona definir si su correo es con propósitos informativos, solicitando un presupuesto o, reclamar por alguna situacion. Se probó integrar el formulario con un servidor virtual de correo, pero no se ha conseguido el resultado esperado, por lo que se dejó reflejada esta mejora en el documento de "Cosas por Hacer" (T2D.md), como un pendiente con prioridad baja.
   * Imagen sección Contacto
   * ![1723687248200](image/README/1723687248200.png)
 * **Manejo de errores:** Para manejar los links cortados, en aquellos casos que se han dejado intencionalmente en blanco, se ha implementado que muestre una página de error (error404.html))
@@ -63,11 +63,11 @@ Si deseas contribuir a este proyecto, sigue estos pasos:
 1. **Visita el sitio:**
    (https://jcordovaj.github.io), si te gusta...
 2. **Revisa la lista de cosas por hacer - Things to do (T2D):**
-   (https://github.com/jcordovaj/jcordovaj.github.io.git/assets/docs/t2d.md), crees que tienes algo que aportar...
+   (https://github.com/jcordovaj/jcordovaj.github.io.git/assets/docs/t2d.md), si crees que tienes algo que aportar...
 3. **Revisa la Guía de Estilo y Buenas Practicas del Proyecto:**
-   (https://github.com/jcordovaj/jcordovaj.github.io.git/assets/docs/buenasPracticas.md), quieres mantenerte informado...
+   (https://github.com/jcordovaj/jcordovaj.github.io.git/assets/docs/buenasPracticas.md), si quieres mantenerte informado...
 4. **Solicita ser agregado como colaborador a TRELLO:**
-   (https://trello.com/b/thnQjQ3S/things-2-do), manos a la obra ....
+   (https://trello.com/b/thnQjQ3S/things-2-do), ahora sí, manos a la obra ....
 5. **Clona el repositorio:**
 
    ```bash
