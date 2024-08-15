@@ -21,33 +21,7 @@ La página web es **responsiva**, adaptándose a diferentes dispositivos, y cuen
 
 Para una mejor comprensión de la ubicación de los archivos y su lógica, se adjunta la siguiente estructura:
 
-Repos
-
-  │─ jcordovaj.github.io		(Raíz del sitio en Github, contiene index.html, error404.html, carpetas: .assets, image, Readme.md)
-  ├─ assets				(Carpeta que contiene las carpetas CSS, JS, docs, img)
-  │  ├─ css				(Configuraciones de estilo, contiene styles y error404)
-  │  │  ├─ error404.css		(Configuraciones de estilo página error404)
-  │  │  └─ styles.css			(Configuraciones de estilo personalizadas styles)
-  │  ├─ docs				(Documentación del proyectos readme en pdf y html, t2d )
-  │  │  ├─ readme.html		(Versión html del readme)
-  │  │  ├─ readme.pdf		(Versión pdf del readme)
-  │  │  ├─ buenasPracticas.md (Guía de estilo y buenas prácticas)
-  │  │  └─ t2d.md			(Archivo cosas por hacer o things to do, para colaboradores del proyecto)
-  │  ├─ img				(Carpeta con imagenes, contiene carpetas: 640x425, badges_sm, capturas, js)
-  │  │  ├─ 640x425			(Carpeta con imagenes en formato 640x425, usadas en sección Proyectos)
-  │  │  ├─ badges_sm		(Carpeta con imagenes en full y sm de las credenciales mostradas en la sección SKILLS)
-  │  │  ├─ capturas			(Carpeta que contiene imagenes del sitio que se usan para documentar su estructura)
-  │  └─ js					(Carpeta que crea archivos javascript )
-  │     ├─ bootstrap.min.js	(librería estándar)
-  │     ├─ local.js			(script personalizado)
-  │     ├─ modal.js			(script modal sección timeline)
-  │     ├─ main.js			(scripts usado por librería scroll reveal, usada para dar el efecto de cascada de los elementos)
-  │     ├─ multicarousel.js	(librería usada para mostrar las credenciales)
-  │     └─ script.js		(scripts personalizado, limpia el formulario de correo)
-  ├─ error404.html		(Página para links cortados)
-  ├─ image				(Carpeta que crea el editor MD cuando se le agregan imágenes, en este caso README o T2D, etc.)
-  ├─ index.html			(Página principal)
-  └─ Readme.md			(Información del proyecto)
+![1723680459507](image/README/1723680459507.png)
 
 ## Tecnologías Utilizadas
 
