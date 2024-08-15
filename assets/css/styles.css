@@ -499,12 +499,14 @@ img{
     backdrop-filter: blur(8px);
     transition: .3s;
 }
-.pubs__img:hover
+/*.pubs__img:hover*/
+
 .pubs__subtitle{
     color: var(--first-color);
     font-size: var(--h4-font-size);
     margin-bottom: var(--mb-1);
 	text-align: justify;
+    padding-left: 10px;
 }
 .pubs__text{
     display: block;
@@ -543,10 +545,11 @@ img{
 .bx .bxs-cog{
   color:#9fc5e8;
 }
+/*
 .pubs div [class^="col-"]{
   padding-left:10px;
   padding-right:10px;
-}
+}*/
 /* Estructura de las tarjetas de las Publicaciones*/
 .card{
   transition:0.5s;
