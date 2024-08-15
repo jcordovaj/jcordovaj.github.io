@@ -1239,26 +1239,26 @@
             <section class="contact section" id="contact">
                 <h2 class="section-title">Contacto</h2>
                 <div class="contact__container bd-grid">
-                    <!--<form action="https://formsubmit.co/a6576be4f941a757aef4cf98ed040e08" method="POST">-->
+                    <form action="https://formsubmit.co/a6576be4f941a757aef4cf98ed040e08" method="POST">
                     <!--<form action="https://formsubmit.co/hododone@mailgolem.com" method="POST">-->
-                    <form action="https://formsubmit.co/jorge.cordovaj@gmail.com" method="POST"></form>
+                    <!--<form action="https://formsubmit.co/jorge.cordovaj@gmail.com" method="POST">-->
                         <div class="contact__inputs">
-                            <input type="text" required placeholder="Nombre*" class="contact__input" id="nombre" maxlength="20">
-                            <input type="text" required placeholder="Apellido*" class="contact__input" id="apellido" maxlength="20">
+                            <input type="text" name="nombre" required placeholder="Nombre*" class="contact__input" id="nombre" maxlength="20">
+                            <input type="text" name="apellido" required placeholder="Apellido*" class="contact__input" id="apellido" maxlength="20">
                         </div>
                         <div class="contact__inputs">
-                            <input type="text" required placeholder="Fono +56 9 12345678*" class="contact__input" id="telefono"
+                            <input type="text" name="fono" required placeholder="Fono +56 9 12345678*" class="contact__input" id="telefono"
                                 required pattern="\+\d{2} \d \d{8}" maxlength="14">
-                            <select class="contact__input" id="tipoRequerimiento" required>
+                            <select name="requerimiento" class="contact__input" id="tipoRequerimiento" required>
                                 <option>Necesito información</option>
                                 <option>Deseo hacer un reclamo</option>
                                 <option>Quiero cotizar sus servicios</option>
                             </select>
                         </div>
-                        <textarea class="contact__input" id="mensaje" cols="0" rows="10" required
+                        <textarea name="mensaje" class="contact__input" id="mensaje" cols="0" rows="10" required
                             placeholder="Su mensaje no debe exceder los 1000 caracteres*" maxlength="1000"></textarea>
                         <div class="contact__inputs">
-                            <input type="email" class="contact__input" id="correo" required placeholder="Tu correo*"
+                            <input name="correo" type="email" class="contact__input" id="correo" required placeholder="Tu correo*"
                                 pattern="^[^@]+@[^@]+\.[a-zA-Z]{2,}$" required>
                         </div>
                         <div class="contact__inputs"></div>
