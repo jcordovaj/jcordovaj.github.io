@@ -474,7 +474,7 @@ img{
     background-color: var(--white-color);
 }
 .pubs__container{
-    justify-items: center;
+    justify-items: normal;
     row-gap: 1rem;
 }
 .pubs__img{
