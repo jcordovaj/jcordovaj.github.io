@@ -45,12 +45,10 @@
 
 ## Mejoras Futuras
 
-
 **Mejora A:**
 
 * Descripción de la mejora:  Generar BBDD con datos de quienes completen el formulario. Se espera poder conectar los datos del formulario a un motor de BBDD
 * Beneficios esperados: Administrar los contactos, guardar copia de los mensajes.
-
 
 **Mejora B:**
 
@@ -63,12 +61,10 @@
 * Descripción de la mejora:  Implementar previsualización del correo y proveer texto enriquecido para que soporte estilos wysiwyg, imagenes (fotos), etc.
 * Beneficios esperados: Mejorar la flexibilidad y personalización de los mensajes.
 
-
 **Mejora D:**
 
 * Descripción de la mejora:  Integrar contenido dinámico con conexión a RSS, actualización de cambios en proyectos en Github, etc.
 * Beneficios esperados: Generar contenidos que puedan ser de interés para los visitantes y aseguren más vistas orgánicas.
-
 
 ## Documentación
 

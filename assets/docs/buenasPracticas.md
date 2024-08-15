@@ -7,7 +7,8 @@
 ### Semántica HTML
 
 * Utilizar etiquetas HTML con su significado semántico correcto (p.ej., `<h1>` para encabezados, `<nav>` para navegación, `<section>` para secciones).
-* Evitar usar divs genéricos a menos que sea estrictamente necesario o se dejé pendiente de renombrar en el backlog para evitar duplicidades. Crear lógica de nombres por sección y documentar en cada sección los nombres importados, por ejemplo, cuando se utilicen librerías externas.
+* Evitar usar divs genéricos a menos que sea estrictamente necesario o que deba ser dejado pendiente de renombrar, mientras se verifica, registrándolo en el backlog para evitar duplicidades.
+* Crear lógica de nombres por sección y documentar en cada sección los nombres importados, por ejemplo, cuando se utilicen librerías externas (SECCION Skills: skills__container, skills__subtitle).
 
 ### Estructura de archivos
 
@@ -21,7 +22,7 @@
 
   Ejemplo BEM:
 
-  ```
+  ```CSS
   .button { /*Bloque */
   /* Estilos básicos del botón*/
   }
@@ -35,7 +36,7 @@
 
   Ejemplo SMACSS:
 
-  ```
+  ```CSS
   /*Base*/
   body {
   font-family: sans-serif;
@@ -66,8 +67,9 @@
 * Agrega espacios en blanco alrededor de los operadores y dentro de las propiedades CSS.
 
   * **Ejemplo CSS sin espacios:**
-
+```CSS
     .button{padding:10px;background-color:#007bff;border:none;color:#fff;}
+```
   * **Ejemplo CSS con espacios:**
 
 ```

@@ -61,13 +61,11 @@ En la realización de este proyecto se han utilizado, principalmente, las siguie
 Si deseas contribuir a este proyecto, sigue estos pasos:
 
 1. **Visita el sitio:**
-   (https://jcordovaj.github.io), si te gusta...
+   [Portafolio de Jota Cordova](https://jcordovaj.github.io), si te gusta...
 2. **Revisa la lista de cosas por hacer - Things to do (T2D):**
-   (https://github.com/jcordovaj/jcordovaj.github.io.git/assets/docs/t2d.md), si crees que tienes algo que aportar...
-3. **Revisa la Guía de Estilo y Buenas Practicas del Proyecto:**
-   (https://github.com/jcordovaj/jcordovaj.github.io.git/assets/docs/buenasPracticas.md), si quieres mantenerte informado...
-4. **Solicita ser agregado como colaborador a TRELLO:**
-   (https://trello.com/b/thnQjQ3S/things-2-do), ahora sí, manos a la obra ....
+   [Ir al documento T2D](https://github.com/jcordovaj/jcordovaj.github.io.git/assets/docs/t2d.md), si crees que tienes algo que aportar...
+3. **Revisa la [Guía de Estilo y Buenas Practicas del Proyecto](https://github.com/jcordovaj/jcordovaj.github.io.git/assets/docs/buenasPracticas.md):** luego, si quieres mantenerte informado...
+4. **Solicita ser agregado como colaborador a TRELLO:** [Ir al tablero del Proyecto](https://trello.com/b/thnQjQ3S/things-2-do) ahora sí, manos a la obra ....
 5. **Clona el repositorio:**
 
    ```bash
@@ -75,9 +73,9 @@ Si deseas contribuir a este proyecto, sigue estos pasos:
    ```
 
 6. **Sube tu request:**
-   * **Documenta tus aportes:** Utiliza nomenclatura y convenciones de nombres de acuerdo al Manual de Estilo y Buenas Prácticas. Al finalizar, genera una nota de versionado en formato md, que indique la sección que fue afectada, las clases modificadas y js que esté involucrado.
+   * **Documenta tus aportes:** Utiliza nomenclatura y convenciones de nombres de acuerdo a la Guía de Estilo y Buenas Prácticas. Al finalizar, genera una nota de versionado en formato md, que indique la sección que fue afectada, las clases modificadas y js que esté involucrado.
    * **Estilo y Diseño:** Mantén la paleta de colores y un estilo minimalista.
-   * **Prohibiciones:** No incorporar contenido ajeno al objetivo del sitio, ideológico, ilegal, publicitario o mal intencionado.
+   * **Prohibiciones:** No incorporar contenido ajeno al objetivo del sitio, tampoco ideológico, ilegal, publicitario o mal intencionado.
    * **Imagenes u otro contenido audiovisual:** Deben estar libres de derechos (copyright).
 7. **Finalmente, si te gusto el proyecto y has decidido participar, [dame una estrella](https://github.com/jcordovaj/jcordovaj.github.io/):**
 ![Logo de GitHub](./assets/img/github-star-75px.webp)
