@@ -417,15 +417,22 @@ img{
     font-size: var(--h4-font-size);
     margin-bottom: var(--mb-1);
 	text-align: justify;
+    padding-left: 10px;
 }
 .proyectos__text{
     display: block;
     font-size: var(--small-font-size);
     margin-right: 0;  /* test var(--mb-2);*/
     margin-bottom: 0; /* test var(--mb-1);*/
-    padding: 0;       /* test .25rem .5rem;*/
     border-radius: .25rem;
 	text-align: justify;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+
+
+
+
 }
 .proyectos__ico{
     color: var(--first-color);
@@ -518,11 +525,11 @@ img{
     padding-bottom: 20px;
     padding-left: 20px;
 }
-.pubs__bordes{
+/*.pubs__bordes{
     padding-left: 1rem;
 	padding-top: 0.5 rem;
     margin-bottom: 5px;
-}
+}*/
 .pad__cards{				/*col-md-3 col-sm-6 pubs*/
 	padding: 10px;
 }
