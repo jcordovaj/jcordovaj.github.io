@@ -67,7 +67,7 @@
 
 ## Documentación
 
-* **Guía de estilo:** Para contribuciones, se agradece consultar la guía de estilo y buenas prácticas del proyecto. [ir a &#34;Guía de Estilo&#34;](buenasPracticas.md)
+* **Guía de estilo:** Para contribuciones, se agradece consultar la guía de estilo y buenas prácticas del proyecto. [ir a &#34;Guía de Estilo&#34;](buenasPracticas.pdf)
 * **Arquitectura del sistema:** Como referencia, se incluye un diagrama o descripción de la arquitectura. (./assets/docs/architecture.png, pendiente\*)
 
 ## Otros
