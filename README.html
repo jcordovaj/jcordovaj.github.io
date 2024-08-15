@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>README.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<p><img src="image/Readme/inicio.png" alt="1723393014424"></p>
+<h1 id="portafolio-personal-demostrando-habilidades-full-stack">Portafolio Personal: Demostrando Habilidades Full Stack</h1>
+<h2 id="introducci%C3%B3n">Introducción</h2>
+<p>Este proyecto nace como resultado de la evaluación al término del módulo 2 del curso &quot;Full Stack Python&quot;, con el objetivo de mostrar las habilidades técnicas aprendidas creando una página web funcional y estéticamente agradable que, a su vez,  sirva como vitrina para mostrar, brevemente, quien es el autor y sus proyectos.</p>
+<p>La página web es <strong>responsiva</strong>, adaptándose a diferentes dispositivos, y cuenta con las siguientes secciones:</p>
+<ul>
+<li><strong>Home:</strong> Una atractiva interfaz que organiza la información de navegación que, adicionalmente, se colapsa al cambiar de tamaño, ofreciendo una alternativa con un acceso con un menú lateral.</li>
+<li><strong>Información personal:</strong> Un breve resumen sobre mi persona e intereses generales.</li>
+<li><strong>Habilidades:</strong> Junto con una explicación se ha implementado un carrusel que muestra certificaciones en forma interactiva, accediendo ademas al link de verificacion de cada una.</li>
+<li><strong>Proyectos:</strong> Se ha implementado una selección de proyectos que representen el conjunto de habilidades a mostrar a los visitantes. La galería se redujo a proyectos destacados.</li>
+<li><strong>Artículos:</strong> Se presenta una introduccion a distintos articulos y opiniones escritos por mi sobre tecnologia y se agrega un link para leerlos en forma completa desde la fuente.</li>
+<li><strong>Timeline:</strong> Se presenta la información como un concepto grafico en una linea de tiempo, se adaptó una librería para mostrar noticias. Esto permite acceder a información expansiva sobre experiencias especificas de la trayectoria profesional.</li>
+<li><strong>Formulario de contacto:</strong> Se incluye un formulario de contacto con validación de campos usando scripts de javascript. Tambien se agregó un selector de objetivo del mail (despliega 3 opciones), pudiendo la persona definir si su correo es con propósitos informativos, solicitando un presupuesto o, reclamar por alguna situacion.</li>
+</ul>
+<h2 id="estructura-del-repositorio">Estructura del repositorio</h2>
+<p>Para una mejor comprensión de la ubicación de los archivos y su lógica, se adjunta la siguiente estructura:</p>
+<p>Repos</p>
+<p>│─ jcordovaj.github.io		(Raíz del sitio en Github, contiene index.html, error404.html, carpetas: .assets, image, Readme.md)
+├─ assets				(Carpeta que contiene las carpetas CSS, JS, docs, img)
+│  ├─ css				(Configuraciones de estilo, contiene styles y error404)
+│  │  ├─ error404.css		(Configuraciones de estilo página error404)
+│  │  └─ styles.css			(Configuraciones de estilo personalizadas styles)
+│  ├─ docs				(Documentación del proyectos readme en pdf y html, t2d )
+│  │  ├─ readme.html		(Versión html del readme)
+│  │  ├─ readme.pdf		(Versión pdf del readme)
+│  │  ├─ buenasPracticas.md (Guía de estilo y buenas prácticas)
+│  │  └─ t2d.md			(Archivo cosas por hacer o things to do, para colaboradores del proyecto)
+│  ├─ img				(Carpeta con imagenes, contiene carpetas: 640x425, badges_sm, capturas, js)
+│  │  ├─ 640x425			(Carpeta con imagenes en formato 640x425, usadas en sección Proyectos)
+│  │  ├─ badges_sm		(Carpeta con imagenes en full y sm de las credenciales mostradas en la sección SKILLS)
+│  │  ├─ capturas			(Carpeta que contiene imagenes del sitio que se usan para documentar su estructura)
+│  └─ js					(Carpeta que crea archivos javascript )
+│     ├─ bootstrap.min.js	(librería estándar)
+│     ├─ local.js			(script personalizado)
+│     ├─ modal.js			(script modal sección timeline)
+│     ├─ main.js			(scripts usado por librería scroll reveal, usada para dar el efecto de cascada de los elementos)
+│     ├─ multicarousel.js	(librería usada para mostrar las credenciales)
+│     └─ script.js		(scripts personalizado, limpia el formulario de correo)
+├─ error404.html		(Página para links cortados)
+├─ image				(Carpeta que crea el editor MD cuando se le agregan imágenes, en este caso README o T2D, etc.)
+├─ index.html			(Página principal)
+└─ Readme.md			(Información del proyecto)</p>
+<h2 id="tecnolog%C3%ADas-utilizadas">Tecnologías Utilizadas</h2>
+<p>En la realización de este proyecto se han utilizado, principalmente, las siguiente herramientas y tecnologías</p>
+<ul>
+<li><code>&lt;i class=&quot;bi bi-bootstrap&quot;&gt;&lt;/i&gt;</code> <strong>Bootstrap 5:</strong> Framework CSS para crear diseños responsivos y modernos.</li>
+<li><strong>JavaScript:</strong> Lenguaje de programación para agregar interactividad.</li>
+<li><strong>CSS:</strong> Para estilizar la página y crear la apariencia deseada.</li>
+<li><strong>jQuery:</strong> Biblioteca JavaScript para simplificar la manipulación del DOM.</li>
+<li><strong>HTML:</strong> Lenguaje de marcado para estructurar el contenido de la página.</li>
+<li><strong>Visual Studio Code:</strong> Entorno de desarrollo integrado para escribir y depurar el código.</li>
+<li><strong>Notepad++:</strong> Edición de documentos con formatos específicos, principalmente CSS, MD y JS.</li>
+<li><strong>Otras tecnologías gráficas:</strong> Se han utilizado otras hmtas. para manipular imagenes y crear objetos gráficos.</li>
+</ul>
+<h2 id="c%C3%B3mo-contribuir">Cómo contribuir</h2>
+<p>Si deseas contribuir a este proyecto, sigue estos pasos:</p>
+<ol>
+<li>
+<p><strong>Visita el sitio:</strong>
+(https://jcordovaj.github.io), si te gusta...</p>
+</li>
+<li>
+<p><strong>Revisa la lista de cosas por hacer - Things to do (T2D):</strong>
+(https://github.com/jcordovaj/jcordovaj.github.io.git/assets/docs/t2d.md), crees que tienes algo que aportar...</p>
+</li>
+<li>
+<p><strong>Revisa la lista de Guía de Estilo y Buenas Practicas del Proyecto:</strong>
+(https://github.com/jcordovaj/jcordovaj.github.io.git/assets/docs/buenasPracticas.md), quieres mantenerte informado...</p>
+</li>
+<li>
+<p><strong>Solicita ser agregado como colaborador a TRELLO:</strong>
+(https://trello.com/b/thnQjQ3S/things-2-do), manos a la obra ....</p>
+</li>
+<li>
+<p><strong>Clona el repositorio:</strong></p>
+<pre class="hljs"><code><div>git <span class="hljs-built_in">clone</span> https://github.com/jcordovaj/jcordovaj.github.io.git
+
+</div></code></pre>
+</li>
+<li>
+<p><strong>Sube tu request:</strong></p>
+<ul>
+<li><strong>Documenta tus aportes:</strong> Utiliza nomenclatura y convenciones de nombres de acuerdo a PEP8. Al finalizar, genera una nota de versionado en formato md, que indique la sección que fue afectada, las clases modificadas y js que esté involucrado.</li>
+<li><strong>Estilo y Diseño:</strong> Mantén la paleta de colores y un estilo minimalista.</li>
+<li><strong>Prohibiciones:</strong> No incorporar contenido ajeno al objetivo del sitio, ideológico, ilegal, publicitario o mal intencionado.</li>
+<li><strong>Imagenes u otro contenido audiovisual:</strong> Deben estar libres de derechos (copyright).</li>
+</ul>
+</li>
+<li>
+<p><strong>Finalmente, si te gusto el proyecto y has decidido participar, dame una estrella:</strong></p>
+</li>
+</ol>
+<p><code>&lt;a href=&quot;https://github.com/jcordovaj/jcordovaj.github.io/star&quot;&gt;&lt;i class=&quot;fa fa-star&quot;&gt;``&lt;/i&gt;</code> Yo te apoyo!!!<code>&lt;/a&gt;</code><img src="./assets/img/github-star-sm.webp" alt="Logo de GitHub"></p>
+
+</body>
+</html>
