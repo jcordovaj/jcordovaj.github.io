@@ -414,7 +414,7 @@ img{
 }
 .proyectos__subtitle{
     color: var(--first-color);
-    font-size: var(--h5-font-size);
+    font-size: var(--h4-font-size);
     margin-bottom: var(--mb-1);
 	text-align: justify;
 }
@@ -501,21 +501,20 @@ img{
 }
 .pubs__img:hover
 .pubs__subtitle{
-    color: var(--first-color) !important;
-    font-size: var(--h5-font-size);
+    color: var(--first-color);
+    font-size: var(--h4-font-size);
     margin-bottom: var(--mb-1);
 	text-align: justify;
-    padding-bottom: 10px;
 }
 .pubs__text{
     display: block;
     font-size: var(--small-font-size);
     margin-right: 0;  /* test var(--mb-2);*/
     margin-bottom: 0; /* test var(--mb-1);*/
-    padding: 0;       /* test .25rem .5rem;*/
     border-radius: .25rem;
 	text-align: justify;
     padding-bottom: 20px;
+    padding-left: 20px;
 }
 .pubs__bordes{
     padding-left: 1rem;
