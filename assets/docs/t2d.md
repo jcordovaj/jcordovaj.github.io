@@ -55,7 +55,6 @@
 * Descripción de la mejora:  Enviar confirmación del correo al visitante. Cualquier interacción requiere una respuesta visual para el usuario.
 * Beneficios esperados: Mejorar la experiencia del usuario.
 
-
 **Mejora C:**
 
 * Descripción de la mejora:  Implementar previsualización del correo y proveer texto enriquecido para que soporte estilos wysiwyg, imagenes (fotos), etc.
