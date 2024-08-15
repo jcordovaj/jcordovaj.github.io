@@ -33,7 +33,7 @@ La página web es **responsiva**, adaptándose a diferentes dispositivos, y cuen
 * **Formulario de contacto:** Se incluye un formulario de contacto con validación de campos usando scripts de javascript. Tambien se agregó un selector de objetivo del mail (despliega 3 opciones), pudiendo la persona definir si su correo es con propósitos informativos, solicitando un presupuesto o, reclamar por alguna situacion. Se probó integrar el formulario con un servidor virtual de correo, pero no se ha conseguido el resultado esperado, por lo que se dejó reflejada esta mejora en el documento de "Cosas por Hacer" (T2D.md), como un pendiente con prioridad baja.
   * Imagen sección Contacto
     ![1723687248200](image/README/1723687248200.png)
-* **Manejo de errores:** Para manejar los links cortados, en aquellos casos que se han dejado intencionalmente en blanco, se ha implementado que muestre una página de error (error404.html))
+* **Manejo de errores:** Para manejar los links cortados, en aquellos casos que se han dejado intencionalmente en blanco, se ha implementado que muestre una página de error (error404.html)
   * Imagen sección Contacto
     ![1723687301881](image/README/1723687301881.png)
 
@@ -47,14 +47,14 @@ Para una mejor comprensión de la ubicación de los archivos y su lógica, se ad
 
 En la realización de este proyecto se han utilizado, principalmente, las siguiente herramientas y tecnologías
 
-* `<i class="bi bi-bootstrap"></i>` **Bootstrap 5:** Framework CSS para crear diseños responsivos y modernos.
+* **Bootstrap 5:** Framework CSS para crear diseños responsivos y modernos.
 * **JavaScript:** Lenguaje de programación para agregar interactividad.
 * **CSS:** Para estilizar la página y crear la apariencia deseada.
 * **jQuery:** Biblioteca JavaScript para simplificar la manipulación del DOM.
 * **HTML:** Lenguaje de marcado para estructurar el contenido de la página.
 * **Visual Studio Code:** Entorno de desarrollo integrado para escribir y depurar el código.
 * **Notepad++:** Edición de documentos con formatos específicos, principalmente CSS, MD y JS.
-* **Otras tecnologías gráficas:** Se han utilizado otras hmtas. para manipular imagenes y crear objetos gráficos.
+* **Otras tecnologías gráficas:** Se han utilizado otras hmtas. para editar imagenes y crear objetos gráficos.
 
 ## Cómo contribuir
 
@@ -72,17 +72,12 @@ Si deseas contribuir a este proyecto, sigue estos pasos:
 
    ```bash
    git clone https://github.com/jcordovaj/jcordovaj.github.io.git
-
    ```
-6. **Sube tu request:**
 
+6. **Sube tu request:**
    * **Documenta tus aportes:** Utiliza nomenclatura y convenciones de nombres de acuerdo al Manual de Estilo y Buenas Prácticas. Al finalizar, genera una nota de versionado en formato md, que indique la sección que fue afectada, las clases modificadas y js que esté involucrado.
    * **Estilo y Diseño:** Mantén la paleta de colores y un estilo minimalista.
    * **Prohibiciones:** No incorporar contenido ajeno al objetivo del sitio, ideológico, ilegal, publicitario o mal intencionado.
    * **Imagenes u otro contenido audiovisual:** Deben estar libres de derechos (copyright).
-7. **Finalmente, si te gusto el proyecto y has decidido participar, dame una estrella:**
-
-   [Yo te apoyo!!](https://github.com/jcordovaj/jcordovaj.github.io/star) Yo te apoyo!!
-
-`<a href="https://github.com/jcordovaj/jcordovaj.github.io/star"><i class="fa fa-star">``</i>` Yo te apoyo!!!`</a>`
+7. **Finalmente, si te gusto el proyecto y has decidido participar, [dame una estrella](https://github.com/jcordovaj/jcordovaj.github.io/):**
 ![Logo de GitHub](./assets/img/github-star-75px.webp)
