@@ -15,7 +15,7 @@ La página web es **responsiva**, adaptándose a diferentes dispositivos, y cuen
     ![1723685278054](image/README/1723685278054.png)
 * **Información personal (Acerca):** Se presenta un breve resumen sobre mi persona e intereses generales.
   * Imagen sección Acerca
-    ![1723685494308](image/README/1723685494308.png)
+    ![1723685494308](image/README/About.png)
 * **Credenciales:** Esta sección presenta un carrusel de tarjetas (clase card de bootstrap), el visitante podrá desplazarse en la cinta, de izquierda a derecha, utilizando botones de navegación. Cada tarjeta presenta información breve sobre la certificación o habilidad adquirida y un botón que dice "Verificar", que abre el link en la página ofcial.
   * Imagen sección Credenciales
     ![1723685858067](image/README/1723685858067.png)
