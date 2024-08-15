@@ -1,4 +1,4 @@
-![1723511400199](image/buenasPracticas/1723511400199.png)
+![1723764805480](image/buenasPracticas/1723764805480.png)
 
 # Guía de Estilo y Buenas Prácticas para Colaboradores
 

@@ -1,6 +1,6 @@
-# Backlog del Proyecto Portafolio Personal
+![1723764740134](image/t2d/1723764740134.png)
 
-![1723517452622](image/t2d/1723517452622.png)
+# Backlog del Proyecto Portafolio Personal
 
 ## Tareas Pendientes
 
