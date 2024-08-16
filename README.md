@@ -1,5 +1,7 @@
 # Portafolio Personal: Demostrando Habilidades Full Stack
+
 ![1723393014424](image/Readme/inicio.png)
+
 ## Introducción
 
 Este proyecto nace como resultado de la evaluación al término del módulo 2 del curso "Full Stack Python", con el objetivo de mostrar las habilidades técnicas aprendidas creando una página web funcional y estéticamente agradable que, a su vez,  sirva como vitrina para mostrar, brevemente, quien es el autor y sus proyectos.
