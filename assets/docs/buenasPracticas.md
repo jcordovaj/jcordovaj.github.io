@@ -1,6 +1,6 @@
-![1723764805480](image/buenasPracticas/1723764805480.png)
-
 # Guía de Estilo y Buenas Prácticas para Colaboradores
+
+![1723764805480](image/buenasPracticas/1723764805480.png)
 
 ## Estructura y Organización
 

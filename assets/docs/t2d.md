@@ -1,6 +1,6 @@
-![1723764740134](image/t2d/1723764740134.png)
-
 # Backlog del Proyecto Portafolio Personal
+
+![1723764740134](image/t2d/1723764740134.png)
 
 ## Tareas Pendientes
 
@@ -59,8 +59,8 @@
 
 ## Documentación
 
-* **Guía de estilo:** Para contribuciones, se agradece consultar la guía de estilo y buenas prácticas del proyecto. [Guía de Estilo y Buenas Practicas del Proyecto](https://github.com/jcordovaj/jcordovaj.github.io/assets/docs/buenasPracticas.pdf)
-* **Arquitectura del sistema:** Como referencia, se incluye un diagrama o descripción de la arquitectura. (./assets/docs/architecture.png, ***pendiente\***)
+* **Guía de estilo:** Para contribuciones, se agradece consultar la guía de estilo y buenas prácticas del proyecto. [Guía de Estilo y Buenas Practicas del Proyecto](https://github.com/jcordovaj/jcordovaj.github.io/assets/docs/buenasPracticas.html)
+* **Arquitectura del sistema:** Como referencia, se incluye un diagrama o descripción de la arquitectura. (./assets/docs/architecture.png, **pendiente de implementar**)
 
 ## Otros
 
