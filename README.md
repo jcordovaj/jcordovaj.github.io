@@ -1,7 +1,5 @@
-![1723393014424](image/Readme/inicio.png)
-
 # Portafolio Personal: Demostrando Habilidades Full Stack
-
+![1723393014424](image/Readme/inicio.png)
 ## Introducción
 
 Este proyecto nace como resultado de la evaluación al término del módulo 2 del curso "Full Stack Python", con el objetivo de mostrar las habilidades técnicas aprendidas creando una página web funcional y estéticamente agradable que, a su vez,  sirva como vitrina para mostrar, brevemente, quien es el autor y sus proyectos.
@@ -77,20 +75,21 @@ Si deseas contribuir a este proyecto, sigue estos pasos:
 1. **Visita el sitio:**
    [Portafolio de Jota Cordova](https://jcordovaj.github.io), si te gusta...
 2. **Mira la [demo del proyecto en "Youtube"...](https://youtu.be/RjkiNr5Jew4)**
-2. **Revisa la lista de cosas por hacer - Things to do (T2D):**
+3. **Revisa la lista de cosas por hacer - Things to do (T2D):**
    [Ir al documento T2D](https://github.com/jcordovaj/jcordovaj.github.io/assets/docs/t2d.html), si crees que tienes algo que aportar...
-3. **Revisa la [Guía de Estilo y Buenas Practicas del Proyecto](https://github.com/jcordovaj/jcordovaj.github.io/assets/docs/buenasPracticas.html):** luego, si quieres mantenerte informado...
-4. **Solicita ser agregado como colaborador a TRELLO:** [Ir al tablero del Proyecto](https://trello.com/b/thnQjQ3S/things-2-do) ahora sí, manos a la obra ....
-5. **Clona el repositorio:**
+4. **Revisa la [Guía de Estilo y Buenas Practicas del Proyecto](https://github.com/jcordovaj/jcordovaj.github.io/assets/docs/buenasPracticas.html):** luego, si quieres mantenerte informado...
+5. **Solicita ser agregado como colaborador a TRELLO:** [Ir al tablero del Proyecto](https://trello.com/b/thnQjQ3S/things-2-do) ahora sí, manos a la obra ....
+6. **Clona el repositorio:**
 
    ```bash
    git clone https://github.com/jcordovaj/jcordovaj.github.io.git
    ```
-6. **Sube tu request:**
+
+7. **Sube tu request:**
 
    * **Documenta tus aportes:** Utiliza nomenclatura y convenciones de nombres de acuerdo a la Guía de Estilo y Buenas Prácticas. Al finalizar, genera una nota de versionado en formato md, que indique la sección que fue afectada, las clases modificadas y js que esté involucrado.
    * **Estilo y Diseño:** Mantén la paleta de colores y un estilo minimalista.
    * **Prohibiciones:** No incorporar contenido ajeno al objetivo del sitio, tampoco ideológico, ilegal, publicitario o mal intencionado.
    * **Imagenes u otro contenido audiovisual:** Deben estar libres de derechos (copyright).
-7. **Finalmente, si te gusto el proyecto y has decidido participar, [dame una estrella](https://github.com/jcordovaj/jcordovaj.github.io/):**
+8. **Finalmente, si te gusto el proyecto y has decidido participar, [dame una estrella](https://github.com/jcordovaj/jcordovaj.github.io/):**
    ![Logo de GitHub](./assets/img/github-star-75px.webp)

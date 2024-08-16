@@ -440,7 +440,6 @@ img{
 	padding-top: 0;
 }
 /* Clases para las tarjetas*/
- 
 .container-media{
     padding-bottom: 0.5rem;
 	padding-top: 0.5rem;
@@ -507,7 +506,6 @@ img{
     transition: .3s;
 }
 /*.pubs__img:hover*/
-
 .pubs__subtitle{
     color: var(--first-color);
     font-size: var(--h4-font-size);
@@ -799,14 +797,14 @@ img{
 }
 /* Clases usadas en el MODAL de Timeline*/
 .modal {
-  display: none; /* Inicialmente oculto */
-  position: fixed; /* Fija la posición */
-  z-index: 1; /* Asegura que esté encima de otros elementos */
+  display: none;      /* Inicialmente oculto */
+  position: fixed;    /* Fija la posición */
+  z-index: 1;         /* Asegura que esté encima de otros elementos */
   left: 0;
   top: 0;
-  width: 100%; /* Cubre toda la pantalla */
+  width: 100%;        /* Cubre toda la pantalla */
   height: 100%;
-  overflow: auto; /* Permite el scroll si el contenido es muy largo */
+  overflow: auto;     /* Permite el scroll si el contenido es muy largo */
   background-color: rgba(0,0,0,0.4); /* Fondo semitransparente */
 }
 .modal-content {
@@ -888,11 +886,6 @@ img{
 .contact__map{
     border: 0; /* Remove the inline border style */
 }
-
-/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13322.400629202655!2d-70.56401886625369!3d-33.40759432128328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c315ffb65f43%3A0x8affc15c790f2b91!2sAv.%20Apoquindo%209000%2C%20Las%20Condes%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1sen!2scl!4v1723229264893!5m2!1sen!2scl" 
-  width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>*/
-
 /* SECCION: Footer
 ----------------------------------------------------------*/
 .footer{
@@ -914,7 +907,6 @@ img{
     /*color: var(--white-color);*/
 	background-color: var(--white-color);
 }
-
 /*.footer__link:hover{
     /*color: var(--white-color);*/
 	/*background-color: var(--white-color);
@@ -923,7 +915,6 @@ img{
     font-size: 1.4rem;
     margin-right: var(--mb-1);
 }
-
 .footer__social:focus{
     color: var(--white-color);
 }
@@ -934,7 +925,6 @@ img{
 .footer__bordes{
     padding-left: 2rem;
 }
-
 /* Configuraciones adicionales: MEDIA QUERIES (Aún en desarrollo)*/
 /* Para dispositivos pequenos / For small devices */
 /* Media query for larger screens (min-width: 768px) */
