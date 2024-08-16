@@ -5,25 +5,17 @@
 ## Tareas Pendientes
 
 * **Pendiente 1:**
+
   * *Descripción detallada de la característica:* Revisar las clases y darles uniformidad para evitar que se pisen clases.
   * *Categoría*: Área de mejora
   * *Prioridad (alta, media, baja)*: La página está en un estado funcional, por lo que la prioridad es BAJA.
   * *Etiquetas (ej: backend, frontend, UX)*: CSS, estilos
 * **Pendiente 2:**
+
   * *Descripción detallada de la característica:* Probar y revisar los @MediaQuerys en distintos aparatos y corregir las restricciones, no siempre se están dando los ajustes fijados al inicio, a veces hay conflicto con librería scroll reveal.
   * *Categoría:* Área de mejora
   * *Prioridad (alta, media, baja):* La página está en un estado funcional, sin embargo, bajo condiciones de borde los ajustes de tamaño a pantallas pequeñas, no responden bien. La prioridad es BAJA.
   * *Etiquetas (ej: backend, frontend, UX):* CSS, estilos
-* **Pendiente 3:**
-  * *Descripción detallada de la característica:*  Revisar formulario de correo. Se conectó servicio de correo externo, pero no se ha verificado que funcione correctamente
-  * *Categoría:* Área de mejora
-  * *Prioridad (alta, media, baja):* La página está en un estado funcional, y cumple con los requisitos establecidos para esta evaluación pero, es un deseable que el formulario permita recibir las interacciones con visitantes. La prioridad es BAJA.
-  * *Etiquetas (ej: backend, frontend, UX):* Backend, correo
-* **Pendiente 4:**
-  * *Descripción detallada de la característica:*  Conectar elemento "Leer más" de las "news", de la sección "Timeline", con un modal. En las pruebas, la página se congela  y bloquea, impidiendo cerrarlo.
-  * *Categoría:* Área de funcionalidad
-  * *Prioridad (alta, media, baja):*  Si bien la página está en un estado funcional, y cumple con los requisitos establecidos para esta evaluación. es una funcionalidad necesaria para que el diseño conceptual de la página tenga sentido, es decir, que se conecte un cotenido expansivo a un link. Prioridad es ALTA.
-  * *Etiquetas (ej: backend, frontend, UX):* Frontend, funcionalidad
 
 ## Errores Conocidos
 
@@ -62,13 +54,13 @@
 
 **Mejora D:**
 
-* Descripción de la mejora:  Integrar contenido dinámico con conexión a RSS, actualización de cambios en proyectos en Github, etc.
-* Beneficios esperados: Generar contenidos que puedan ser de interés para los visitantes y aseguren más vistas orgánicas.
+* Descripción de la mejora:  Integrar contenido dinámico con conexión a RRSS, actualización de cambios en proyectos en Github, etc.
+* Beneficios esperados: Generar contenidos renovados y que puedan ser de interés para los visitantes, asegurando más vistas orgánicas.
 
 ## Documentación
 
-* **Guía de estilo:** Para contribuciones, se agradece consultar la guía de estilo y buenas prácticas del proyecto. [ir a &#34;Guía de Estilo&#34;](buenasPracticas.pdf)
-* **Arquitectura del sistema:** Como referencia, se incluye un diagrama o descripción de la arquitectura. (./assets/docs/architecture.png, pendiente\*)
+* **Guía de estilo:** Para contribuciones, se agradece consultar la guía de estilo y buenas prácticas del proyecto. [Guía de Estilo y Buenas Practicas del Proyecto](https://github.com/jcordovaj/jcordovaj.github.io/assets/docs/buenasPracticas.pdf)
+* **Arquitectura del sistema:** Como referencia, se incluye un diagrama o descripción de la arquitectura. (./assets/docs/architecture.png, ***pendiente\***)
 
 ## Otros
 
