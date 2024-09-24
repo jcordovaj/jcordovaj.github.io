@@ -76,7 +76,7 @@ Si deseas contribuir a este proyecto, sigue estos pasos:
 
 1. **Visita el sitio:**
    [Portafolio de Jota Cordova](https://jcordovaj.github.io), si te gusta...
-2. **Mira la [demo del proyecto en "Youtube"...](https://youtu.be/RjkiNr5Jew4)**
+2. **Mira la [demo del proyecto en &#34;Youtube&#34;...](https://youtu.be/RjkiNr5Jew4)**
 3. **Revisa la lista de cosas por hacer - Things to do (T2D):**
    [Ir al documento T2D](https://jcordovaj.github.io/assets/docs/t2d.html), si crees que tienes algo que aportar...
 4. **Revisa la [Guía de Estilo y Buenas Practicas del Proyecto](https://jcordovaj.github.io/assets/docs/buenasPracticas.html):** luego, si quieres mantenerte informado...
@@ -86,7 +86,6 @@ Si deseas contribuir a este proyecto, sigue estos pasos:
    ```bash
    git clone https://github.com/jcordovaj/jcordovaj.github.io.git
    ```
-
 7. **Sube tu request:**
 
    * **Documenta tus aportes:** Utiliza nomenclatura y convenciones de nombres de acuerdo a la Guía de Estilo y Buenas Prácticas. Al finalizar, genera una nota de versionado en formato md, que indique la sección que fue afectada, las clases modificadas y js que esté involucrado.
@@ -95,3 +94,6 @@ Si deseas contribuir a este proyecto, sigue estos pasos:
    * **Imagenes u otro contenido audiovisual:** Deben estar libres de derechos (copyright).
 8. **Finalmente, si te gusto el proyecto y has decidido participar, [dame una estrella](https://github.com/jcordovaj/jcordovaj.github.io/):**
    ![Logo de GitHub](./assets/img/github-star-75px.webp)
+
+
+![1725065962040](image/README/1725065962040.png)
