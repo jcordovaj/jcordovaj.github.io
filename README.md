@@ -12,11 +12,10 @@ La página web es **responsiva**, adaptándose a diferentes dispositivos, y cuen
 
   * Imagen Home pantallas grandes:
   <p float="left">
-      <img src="image/README/1723685220624.png" alt="Pantalla inicial" width="150"/>
+      <img src="https://github.com/jcordovaj/jcordovaj.github.io/blob/main/image/Readme/1723405228012.png" alt="Pantalla inicial" width="150"/>
   </p>
   
   * Imagen Home pantallas pequeñas:
-    ![1723685278054](image/README/1723685278054.png)
     <p float="left">
       <img src="image/README/1723685278054.png" alt="Pantalla inicial" width="150"/>
     </p>  
