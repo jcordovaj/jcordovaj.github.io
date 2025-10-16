@@ -11,9 +11,16 @@ La página web es **responsiva**, adaptándose a diferentes dispositivos, y cuen
 * **Home:** la solución consiste de una sobria pero llamativa sección de "Inicio" o "Home", que posee una interfaz intuitiva, que organiza la información de navegación mostrando las demás secciones del sitio en la parte superior. Adicionalmente, al cambiar de tamaño para pantallas más pequeñas (responsiveness), el menu se colapsa, ofreciendo una alternativa de interfaz con un menú lateral. Se han agregado tooltips, a algunas etiquetas o textos para facilitar su comprensión, por ejemplo, sobre el ícono del menú lateral en pantallas pequeñas.
 
   * Imagen Home pantallas grandes:
-    ![1723685220624](image/README/1723685220624.png)
+  <p float="left">
+      <img src="image/README/1723685220624.png" alt="Pantalla inicial" width="150"/>
+  </p>
+  
   * Imagen Home pantallas pequeñas:
     ![1723685278054](image/README/1723685278054.png)
+    <p float="left">
+      <img src="image/README/1723685278054.png" alt="Pantalla inicial" width="150"/>
+    </p>  
+    
 * **Información personal (Acerca):** Se presenta un breve resumen sobre mi persona e intereses generales.
 
   * Imagen sección Acerca
