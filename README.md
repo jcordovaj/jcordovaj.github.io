@@ -17,7 +17,7 @@ La página web es **responsiva**, adaptándose a diferentes dispositivos, y cuen
   
   * Imagen Home pantallas pequeñas:
     <p float="left">
-      <img src="image/README/1723685278054.png" alt="Pantalla inicial" width="150"/>
+      <img src="https://github.com/jcordovaj/jcordovaj.github.io/blob/main/image/Readme/1723685278054.png" alt="Pantalla inicial" width="150"/>
     </p>  
     
 * **Información personal (Acerca):** Se presenta un breve resumen sobre mi persona e intereses generales.
